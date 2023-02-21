@@ -1,0 +1,24 @@
+{
+  "name": "external-module",
+  "version": "1.0.0",
+  "description": "Using npm external module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "keywords": [
+    "nodejs",
+    "npm",
+    "extenal",
+    "module"
+  ],
+  "author": "Joti Golder",
+  "license": "ISC",
+  "dependencies": {
+    "movie-name": "^1.0.0",
+    "movies-names": "^1.1.1",
+    "nodemon": "^2.0.20",
+    "random-fruits-name": "^1.9.6"
+  }
+}
